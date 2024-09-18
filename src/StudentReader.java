@@ -28,6 +28,13 @@ public class StudentReader {
             }
         }
     }
+ 
+    public static void main(String[] args) {
+        StudentReader reader = new StudentReader();
+        reader.addStudentNames();
+        System.out.println("\nRandom Groups:");
+        reader.createRandomGroups();  
+    }
 }
  
  
